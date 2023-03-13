@@ -50,7 +50,7 @@ I already made a workflow in the template repository. The workflow is defined in
 
 Notice that the folder `.github` is hidden, so you should use either the IntelliJ browser or an additional parameter to show the hidden folders/files (e.g., `ls -al` in a terminal).
 
-The easiest way of seeing the workflow file is actually go to your online GitHub repository. In the web browser (e.g., Edge, Safari, Chrome), enter your repository address and go to the workflow file.
+The easiest way to see the workflow file is actually to go to your online GitHub repository. In the web browser (e.g., Edge, Safari, Chrome), enter your repository address and go to the workflow file.
 
 ![GitHub workflow](images/workflow-github.png)
 
