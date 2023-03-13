@@ -19,7 +19,7 @@ public class TestMain {
         Main.main(null);
 
         // assertion
-        assertEquals("Hello Reengineering!\n", bos.toString());
+        assertEquals("Hello Reengineering!", bos.toString().trim());
 
         // undo the binding in System
         System.setOut(originalOut);
