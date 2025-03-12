@@ -1,26 +1,59 @@
-# Compiled class file
-*.class
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Log file
+# Virtual environment (venv)
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debug files
+logs/
 *.log
+*.out
+*.err
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-# IntelliJ
+# IDE settings and workspace files
+.vscode/
 .idea/
+
+# MacOS system files
+.DS_Store
+
+# Python packaging files
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Testing and coverage reports
+.coverage
+htmlcov/
+pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Environment variables / Secrets
+.env
+*.env
+*.ini
+*.cfg
+
+# Profiling data
+*.prof
+*.lprof
+
+# Jupyter Notebook auto-generated output files
+*.nbconvert/
+
+# Temporary files
+*.bak
+*.swp
+*.swo
